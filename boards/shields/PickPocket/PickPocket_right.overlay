@@ -1,4 +1,4 @@
-#include "2Pocket.dtsi"
+#include "PickPocket.dtsi"
 
 
 &kscan0 {
