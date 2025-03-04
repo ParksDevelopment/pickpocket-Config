@@ -1,0 +1,4 @@
+config SHIELD_PICKPOCKET_LEFT
+    def_bool $(shields_list_contains,PickPocket_left)
+config SHIELD_PICKPOCKET_RIGHT
+    def_bool $(shields_list_contains,PickPocket_right)

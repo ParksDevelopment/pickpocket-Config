@@ -1,0 +1,16 @@
+if SHIELD_PICKPOCKET_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "PickPocket"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_PICKPOCKET_LEFT || SHIELD_PICKPOCKET_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
