@@ -5,7 +5,6 @@ type: shield
 requires: [seeed_xiao]
 features:
   - keys
-  - accelerometer
 siblings:
   - pickpocket_left
   - pickpocket_right
