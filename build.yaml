@@ -20,6 +20,6 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: PickPocket_left
+    shield: pickpocket_left
   - board: seeeduino_xiao_ble
-    shield: PickPocket_right
+    shield: pickpocket_right
